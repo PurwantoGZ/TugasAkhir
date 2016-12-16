@@ -16,5 +16,10 @@ namespace OpticalCharacterRecognition
         {
             InitializeComponent();
         }
+        public ConvertView(RichTextBox richText)
+        {
+            InitializeComponent();
+            TextConvert = richText;
+        }
     }
 }

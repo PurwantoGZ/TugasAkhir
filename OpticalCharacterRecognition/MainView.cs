@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using MetroFramework.Forms;
+using TA;
 namespace OpticalCharacterRecognition
 {
     public partial class MainView : MetroForm
@@ -17,7 +18,7 @@ namespace OpticalCharacterRecognition
         {
             InitializeComponent();
         }
-
+        public string FileNameImage = null;
         private void OpenFile(object sender, EventArgs e)
         {
             OpenFileDialog openFileDialog = new OpenFileDialog();
@@ -38,6 +39,7 @@ namespace OpticalCharacterRecognition
                 if (ofd.ShowDialog() == DialogResult.OK)
                 {
                     OpenImageView openimage =new OpenImageView(ofd);
+                    FileNameImage = ofd.FileName;
                     newImageTool.Enabled = false;
                     enabletool(true);
                     OpentoolStripMenuItem.Enabled = false;
@@ -65,6 +67,7 @@ namespace OpticalCharacterRecognition
                 {
                     OpenImageView openimage = new OpenImageView(ofd);
                     newImageTool.Enabled = false;
+                    FileNameImage = ofd.FileName;
                     enabletool(true);
                     OpentoolStripMenuItem.Enabled = false;
                     openimage.MdiParent = this;
@@ -101,9 +104,14 @@ namespace OpticalCharacterRecognition
 
         private void toolConvert_Click(object sender, EventArgs e)
         {
-            ConvertView convertview = new ConvertView();
+            var convert = new OCR();
+            RichTextBox richText = new RichTextBox();
+            convert.ReadTextFromImage(FileNameImage,ref richText);
+
+            ConvertView convertview = new ConvertView(richText);
             convertview.MdiParent = this;
             toolConvert.Enabled = false;
+            
             convertview.FormClosed += new FormClosedEventHandler(convertviewclosed);
             convertview.Show();
         }

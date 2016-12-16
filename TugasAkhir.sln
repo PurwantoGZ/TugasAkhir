@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpticalCharacterRecognition", "OpticalCharacterRecognition\OpticalCharacterRecognition.csproj", "{583EE639-3FE4-4E2B-BA27-34D028EAF24B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TA", "TA\TA.csproj", "{1CDC9BB8-4EFD-45C2-BA5F-BF38117C0AF2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{583EE639-3FE4-4E2B-BA27-34D028EAF24B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{583EE639-3FE4-4E2B-BA27-34D028EAF24B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{583EE639-3FE4-4E2B-BA27-34D028EAF24B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CDC9BB8-4EFD-45C2-BA5F-BF38117C0AF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CDC9BB8-4EFD-45C2-BA5F-BF38117C0AF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CDC9BB8-4EFD-45C2-BA5F-BF38117C0AF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CDC9BB8-4EFD-45C2-BA5F-BF38117C0AF2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
