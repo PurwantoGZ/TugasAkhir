@@ -10,4 +10,4 @@ Batas Akhir 26 Januari 2016 | Fight
 #
  ScreenShoot Aplikasi
 #1. Screen Shoot Aplikasi Utama
-![alt tag](https://github.com/PurwantoGZ/FinalExam/blob/master/ScreenShoot1.png)
+![alt tag](https://github.com/PurwantoGZ/TugasAkhir/blob/master/SC1.png)
