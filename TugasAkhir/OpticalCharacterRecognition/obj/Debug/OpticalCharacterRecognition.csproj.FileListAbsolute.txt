@@ -1,0 +1,30 @@
+F:\Sutrisno PTA\TugasAkhir\OpticalCharacterRecognition\bin\Debug\OpticalCharacterRecognition.exe.config
+F:\Sutrisno PTA\TugasAkhir\OpticalCharacterRecognition\bin\Debug\OpticalCharacterRecognition.exe
+F:\Sutrisno PTA\TugasAkhir\OpticalCharacterRecognition\bin\Debug\OpticalCharacterRecognition.pdb
+F:\Sutrisno PTA\TugasAkhir\OpticalCharacterRecognition\bin\Debug\MetroFramework.Design.dll
+F:\Sutrisno PTA\TugasAkhir\OpticalCharacterRecognition\bin\Debug\MetroFramework.dll
+F:\Sutrisno PTA\TugasAkhir\OpticalCharacterRecognition\bin\Debug\MetroFramework.Fonts.dll
+F:\Sutrisno PTA\TugasAkhir\OpticalCharacterRecognition\obj\Debug\OpticalCharacterRecognition.csprojResolveAssemblyReference.cache
+F:\Sutrisno PTA\TugasAkhir\OpticalCharacterRecognition\obj\Debug\OpticalCharacterRecognition.MainView.resources
+F:\Sutrisno PTA\TugasAkhir\OpticalCharacterRecognition\obj\Debug\OpticalCharacterRecognition.Properties.Resources.resources
+F:\Sutrisno PTA\TugasAkhir\OpticalCharacterRecognition\obj\Debug\OpticalCharacterRecognition.csproj.GenerateResource.Cache
+F:\Sutrisno PTA\TugasAkhir\OpticalCharacterRecognition\obj\Debug\OpticalCharacterRecognition.exe
+F:\Sutrisno PTA\TugasAkhir\OpticalCharacterRecognition\obj\Debug\OpticalCharacterRecognition.pdb
+F:\Sutrisno PTA\TugasAkhir\OpticalCharacterRecognition\obj\Debug\OpticalCharacterRecognition.OpenImageView.resources
+F:\Sutrisno PTA\TugasAkhir\OpticalCharacterRecognition\obj\Debug\OpticalCharacterRecognition.ConvertView.resources
+D:\UTY\TA\PROGRAM\TugasAkhir\OpticalCharacterRecognition\bin\Debug\OpticalCharacterRecognition.exe.config
+D:\UTY\TA\PROGRAM\TugasAkhir\OpticalCharacterRecognition\obj\Debug\OpticalCharacterRecognition.exe
+D:\UTY\TA\PROGRAM\TugasAkhir\OpticalCharacterRecognition\obj\Debug\OpticalCharacterRecognition.pdb
+D:\UTY\TA\PROGRAM\TugasAkhir\OpticalCharacterRecognition\bin\Debug\OpticalCharacterRecognition.exe
+D:\UTY\TA\PROGRAM\TugasAkhir\OpticalCharacterRecognition\bin\Debug\OpticalCharacterRecognition.pdb
+D:\UTY\TA\PROGRAM\TugasAkhir\OpticalCharacterRecognition\bin\Debug\MetroFramework.Design.dll
+D:\UTY\TA\PROGRAM\TugasAkhir\OpticalCharacterRecognition\bin\Debug\MetroFramework.dll
+D:\UTY\TA\PROGRAM\TugasAkhir\OpticalCharacterRecognition\bin\Debug\MetroFramework.Fonts.dll
+D:\UTY\TA\PROGRAM\TugasAkhir\OpticalCharacterRecognition\obj\Debug\OpticalCharacterRecognition.csprojResolveAssemblyReference.cache
+D:\UTY\TA\PROGRAM\TugasAkhir\OpticalCharacterRecognition\obj\Debug\Interop.MODI.dll
+D:\UTY\TA\PROGRAM\TugasAkhir\OpticalCharacterRecognition\obj\Debug\OpticalCharacterRecognition.csproj.ResolveComReference.cache
+D:\UTY\TA\PROGRAM\TugasAkhir\OpticalCharacterRecognition\obj\Debug\OpticalCharacterRecognition.ConvertView.resources
+D:\UTY\TA\PROGRAM\TugasAkhir\OpticalCharacterRecognition\obj\Debug\OpticalCharacterRecognition.MainView.resources
+D:\UTY\TA\PROGRAM\TugasAkhir\OpticalCharacterRecognition\obj\Debug\OpticalCharacterRecognition.OpenImageView.resources
+D:\UTY\TA\PROGRAM\TugasAkhir\OpticalCharacterRecognition\obj\Debug\OpticalCharacterRecognition.Properties.Resources.resources
+D:\UTY\TA\PROGRAM\TugasAkhir\OpticalCharacterRecognition\obj\Debug\OpticalCharacterRecognition.csproj.GenerateResource.Cache
