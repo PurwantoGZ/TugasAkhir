@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{583EE639-3FE4-4E2B-BA27-34D028EAF24B}</ProjectGuid>
+    <ProjectGuid>{A0A577C5-0EC9-48FF-A8E0-C5A626548E23}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>OpticalCharacterRecognition</RootNamespace>
-    <AssemblyName>OpticalCharacterRecognition</AssemblyName>
+    <RootNamespace>Coba</RootNamespace>
+    <AssemblyName>Coba</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -33,15 +33,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="MetroFramework">
-      <HintPath>C:\metro\MetroFramework.dll</HintPath>
-    </Reference>
-    <Reference Include="MetroFramework.Design">
-      <HintPath>C:\metro\MetroFramework.Design.dll</HintPath>
-    </Reference>
-    <Reference Include="MetroFramework.Fonts">
-      <HintPath>C:\metro\MetroFramework.Fonts.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -55,41 +46,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ConvertView.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ConvertView.Designer.cs">
-      <DependentUpon>ConvertView.cs</DependentUpon>
-    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="MainView.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="MainView.Designer.cs">
-      <DependentUpon>MainView.cs</DependentUpon>
-    </Compile>
-    <Compile Include="OpenImageView.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="OpenImageView.Designer.cs">
-      <DependentUpon>OpenImageView.cs</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="ConvertView.resx">
-      <DependentUpon>ConvertView.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="MainView.resx">
-      <DependentUpon>MainView.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="OpenImageView.resx">
-      <DependentUpon>OpenImageView.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -98,7 +62,6 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -112,56 +75,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Printed OCR-48.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\PDF 2_32.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\add_image-48.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\PDF 2_48.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Word_48.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Help-48 %281%29.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Zoom In-48.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Zoom Out-48.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Rotate Left-48.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Process-48.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Close Window-321.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\aaa.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Curriculum-48.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <COMReference Include="MODI">
-      <Guid>{A5EDEDF4-2BBC-45F3-822B-E60C278A1A79}</Guid>
-      <VersionMajor>12</VersionMajor>
-      <VersionMinor>0</VersionMinor>
-      <Lcid>0</Lcid>
-      <WrapperTool>tlbimp</WrapperTool>
-      <Isolated>False</Isolated>
-      <EmbedInteropTypes>True</EmbedInteropTypes>
-    </COMReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -1,0 +1,7 @@
+D:\UTY\TA\PROGRAM\backup\TugasAkhir\Coba\bin\Debug\Coba.exe.config
+D:\UTY\TA\PROGRAM\backup\TugasAkhir\Coba\bin\Debug\Coba.exe
+D:\UTY\TA\PROGRAM\backup\TugasAkhir\Coba\bin\Debug\Coba.pdb
+D:\UTY\TA\PROGRAM\backup\TugasAkhir\Coba\obj\Debug\Coba.Properties.Resources.resources
+D:\UTY\TA\PROGRAM\backup\TugasAkhir\Coba\obj\Debug\Coba.csproj.GenerateResource.Cache
+D:\UTY\TA\PROGRAM\backup\TugasAkhir\Coba\obj\Debug\Coba.exe
+D:\UTY\TA\PROGRAM\backup\TugasAkhir\Coba\obj\Debug\Coba.pdb

@@ -8,7 +8,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using MetroFramework.Forms;
-using TA;
+using System.IO;
+
 namespace OpticalCharacterRecognition
 {
     public partial class MainView : MetroForm
@@ -132,4 +133,66 @@ namespace OpticalCharacterRecognition
             toolConvert.Enabled = state;
         }
     }
+    public class OCR
+    {
+        public OCR()
+        {
+
+        }
+
+
+        public int jumlahKarakter(string sentence)
+        {
+            int result = 0;
+            if (!string.IsNullOrWhiteSpace(sentence))
+            {
+                var character = sentence.ToCharArray();
+                foreach (char item in character)
+                {
+                    result++;
+                }
+            }
+            else
+            {
+                throw new Exception("bummer no data and stuff");
+            }
+            return result;
+        }
+
+        #region ConvertImage2Text
+        public void ReadTextFromImage(String ImagePath, ref string result)
+        {
+            try
+            {
+                // Grab Text From Image
+                MODI.Document ModiObj = new MODI.Document();
+                ModiObj.Create(ImagePath);
+                ModiObj.OCR(MODI.MiLANGUAGES.miLANG_ENGLISH, true, true);
+
+                //Retrieve the text gathered from the image
+                MODI.Image ModiImageObj = (MODI.Image)ModiObj.Images[0];
+
+                // Set Store Image Content text file Path
+                String StoreTextFilePath = AppDomain.CurrentDomain.BaseDirectory + "SampleText.doc";
+                // Store Image Content in Text File
+                FileStream CreateFileObj = new FileStream(StoreTextFilePath, FileMode.Create);
+                //save the image text in the text file 
+                StreamWriter WriteFileObj = new StreamWriter(CreateFileObj);
+                WriteFileObj.Write(ModiImageObj.Layout.Text);
+                WriteFileObj.Close();
+
+                result = ModiImageObj.Layout.Text;
+                System.Console.WriteLine(ModiImageObj.Layout.Text);
+                //ConvertText.Text = ModiImageObj.Layout.Text;
+
+                ModiObj.Close();
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(ex.Message);
+            }
+        }
+        #endregion
+    }
+
 }

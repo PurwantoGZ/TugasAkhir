@@ -30,3 +30,14 @@ D:\UTY\TA\PROGRAM\TugasAkhir\OpticalCharacterRecognition\obj\Debug\OpticalCharac
 D:\UTY\TA\PROGRAM\TugasAkhir\OpticalCharacterRecognition\obj\Debug\OpticalCharacterRecognition.csproj.GenerateResource.Cache
 D:\UTY\TA\PROGRAM\TugasAkhir\OpticalCharacterRecognition\bin\Debug\TA.dll
 D:\UTY\TA\PROGRAM\TugasAkhir\OpticalCharacterRecognition\bin\Debug\TA.pdb
+D:\UTY\TA\PROGRAM\backup\TugasAkhir\OpticalCharacterRecognition\bin\Debug\OpticalCharacterRecognition.exe.config
+D:\UTY\TA\PROGRAM\backup\TugasAkhir\OpticalCharacterRecognition\obj\Debug\Interop.MODI.dll
+D:\UTY\TA\PROGRAM\backup\TugasAkhir\OpticalCharacterRecognition\obj\Debug\OpticalCharacterRecognition.csproj.ResolveComReference.cache
+D:\UTY\TA\PROGRAM\backup\TugasAkhir\OpticalCharacterRecognition\obj\Debug\OpticalCharacterRecognition.exe
+D:\UTY\TA\PROGRAM\backup\TugasAkhir\OpticalCharacterRecognition\obj\Debug\OpticalCharacterRecognition.pdb
+D:\UTY\TA\PROGRAM\backup\TugasAkhir\OpticalCharacterRecognition\obj\Debug\OpticalCharacterRecognition.csprojResolveAssemblyReference.cache
+D:\UTY\TA\PROGRAM\backup\TugasAkhir\OpticalCharacterRecognition\obj\Debug\OpticalCharacterRecognition.ConvertView.resources
+D:\UTY\TA\PROGRAM\backup\TugasAkhir\OpticalCharacterRecognition\obj\Debug\OpticalCharacterRecognition.MainView.resources
+D:\UTY\TA\PROGRAM\backup\TugasAkhir\OpticalCharacterRecognition\obj\Debug\OpticalCharacterRecognition.OpenImageView.resources
+D:\UTY\TA\PROGRAM\backup\TugasAkhir\OpticalCharacterRecognition\obj\Debug\OpticalCharacterRecognition.Properties.Resources.resources
+D:\UTY\TA\PROGRAM\backup\TugasAkhir\OpticalCharacterRecognition\obj\Debug\OpticalCharacterRecognition.csproj.GenerateResource.Cache
